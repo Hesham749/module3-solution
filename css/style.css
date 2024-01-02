@@ -1,0 +1,42 @@
+body header #header-nav {
+    background-color:#999999 ;
+    padding-bottom: 0;
+}
+body header #header-nav .container-fluid{
+    padding: 0;
+}
+.navbar-brand {
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 1.6em;
+    margin-bottom: 8px;
+}
+.navbar-toggler{
+    margin-right: 15px;
+}
+
+.navbar-toggler{
+    margin-bottom: 8px;
+}
+.navbar-nav {
+    border: 1px solid;
+}
+.navbar-nav a{
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 1px solid;
+}
+#content{
+    background-color:#999999 ;
+}
+h2{
+    margin-top:20px ;
+    margin-bottom:30px ;
+}
+
+@media (min-width:991px) {
+    .navbar-nav{
+        display: none;
+    }
+}
